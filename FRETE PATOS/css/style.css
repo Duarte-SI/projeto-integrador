@@ -1,0 +1,332 @@
+
+
+/* FOOTER */
+
+
+
+#contact-area{
+  text-align: center;
+
+}
+
+.contact-box{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #3EC1D5;
+} 
+
+.contact-box i{
+  color: #444;
+  border: solid 1px #444;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p{
+  font-size: 16px;
+}
+
+.contact-title{
+  font-weight: bold;
+  color: darkgreen;
+
+}
+
+#msg-box p {
+  font-size: 22px;
+
+}
+
+#contact-form input[type="text"],#contact-form input[type="email"], #contact-form textarea{
+  margin-bottom: 15px;
+  border-radius: 0;
+  border: none;
+  background-color: darkgray  ;
+  border-radius: 15px;  
+  
+
+
+}
+.main-btn{
+  color: yellowgreen;
+  border: none;
+  border-radius: 10px;
+  background-color: #333;
+  width: 120px;
+  height: 50px;
+}
+
+#contact-form .main-btn {
+  width: 120px;
+  height: 50px;
+
+}
+#contact-form .main-btn:hover {
+  color: green;
+}
+
+/* SOBRE NÓS */
+
+.img-fluid{
+  margin-top: 0;
+  height: 50px;
+  width: 450px;
+
+}
+
+#about-area{
+  background-color: white;
+
+}
+
+.main-title{
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+
+.about-title{
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+.about-title-sbrns{
+   font-size: 17px;
+  color: #444;
+    
+text-align: justify;
+}
+
+#about-list{
+  list-style: none;
+  padding-left: 0;
+}
+
+#about-list li{
+  line-height: 30px;
+
+
+}  
+
+#about-list i{
+  color: #3EC1D5;
+  margin-right: 15px;
+
+}
+
+/* orcamenrto*/
+
+#call-btn{
+  height: 50px;
+width: 120px;
+
+}
+
+
+/* copy */
+
+#copy-area{
+  background-color:#444 ;
+  height: 50px;
+  color: azure  ;
+  
+}
+#copy-area .container{
+  
+  margin-top: 15px;
+  padding: 10px 0;
+  text-align: center  ;
+} 
+#copy-area .container p{
+  margin-bottom: 0;
+
+
+}
+#copy-area .container a{
+  color: greenyellow;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#copy-area .container a:hover{
+  color: gold;
+}
+
+
+
+/*NEWSLATTER*/
+
+#news-area{
+  text-align: center;
+  background-color: #f9f9f9;
+
+}
+
+#news-area p{
+  font-size: 18px;
+margin-bottom: 40px;  
+
+}
+
+#email-input{
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid yellowgreen ;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+  position: absolute;
+  left: 350px;
+
+  
+
+}
+
+#news-btn{
+  border-radius: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid yellowgreen;
+  background-color: yellowgreen;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 30px;
+  margin-left: -130px;
+  position: absolute;
+  transition: .5s;
+  width: 10%;
+  height: 40px;
+  align-items: center;
+  right: 370px;
+
+}
+
+#news-btn:hover{
+  background-color: green ;
+  color: #444;
+
+}
+
+
+/*cards*/
+
+
+
+.card-img-top{  
+  
+  height: 250px;
+  
+
+
+}
+
+.produtos-title h3{
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.produtos-title p{
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.btn-modal{
+  font-size: 15 px;
+  font-weight: bold;
+  background-color: #03c601;
+  border: none;
+  border-radius: 10px;
+  width:200px;
+  height: 50px;
+}
+
+/*MODAL*/
+.modal-header{
+  width: 500px;
+
+}
+
+.modal-header i{
+  font-size: 30px;
+  padding-right: 15px;
+}
+.modal-header h1{
+  text-align: center;
+  align-items: center ;
+  color: green;
+  font-weight: bold;
+  
+
+}
+
+
+.modal-body h4{
+text-align: center;
+}
+
+.modal-body h5{
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px;
+
+}
+
+.modal-contacts{
+  font-size: 40px;
+  text-align: center; 
+  
+}
+
+.modal-contacts a{
+  text-decoration: none;
+  color: black;
+
+}
+
+
+
+
+.fa-whatsapp{
+  transition: .5s;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.fa-whatsapp:hover{
+  color: #03c601;
+
+
+}
+
+.contact-site {
+ 
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.contact-instagram{
+ 
+  width: 55px;
+  height: 55px;
+  line-height: 55px; 
+  padding-left: 50px;
+  padding-right: 50px;
+
+}

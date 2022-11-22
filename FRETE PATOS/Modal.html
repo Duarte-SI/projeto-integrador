@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="x-svg/svg" href="img/truck.svg">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  <!--'type' varia de acordo com o tipo da imagem .png .icon, peguei coisa do Bootstrap-->
+  <title>FRETE PATOS</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
+  <link rel="stylesheet" href="css/style.css">
+  <!--BOOTSTRAP-->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!--SCRIPTS-->
+  <script src="js/scripts.js"> </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR       +nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/59e1c8e300.js" crossorigin="anonymous"></script>
+  <!--PROGRESS BAR-->
+  <Script src="js/progressbar.min.js"></Script>
+  <!--PARALLAX-->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  <!--CAROUSSEL-->
+  <link rel="stylesheet" href="css/carrossel.css">
+  <!--NAV BAR -->
+  <link rel="stylesheet" href="css/navbar.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylehari.css">
+
+</head>
+
+
+ 
+<body>
+<header>
+<!--NAV BAR-->
+ <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg bg-dark navbar-dark " style="z-index:999;   "     >
+  <div class="container-fluid col-12 m-auto">
+    <a class="navbar-brand" href="Home.html"> <img src="img/logofrete2.png" alt="">FRETE PATOS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+      <div class="navbar-nav">
+        <a class="nav-link" href="Modal.html">Serviços</a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</nav>
+</header>    
+
+<br><br>
+
+<div class="produtos-title" style="text-align: center;">
+    <h3 >Você cliente</h3>
+    <p>Conheça alguns de nossos parceiros e seus serviços prestados</p>
+    <p>Você pode entrar em contato com o parceiro de sua escolha</p>
+</div>
+<!--CARDS-->
+<div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 50px;">
+  <div class="col">
+    <div class="card">
+      <img src="camiao gande.jfif" class="card-img-top" alt="João Fretes">
+      <div class="card-body">
+        <h5 class="card-title">João Fretes</h5>
+        <p class="card-text">Atendendo Lagoa Formosa e região</p>
+        <button type="button" class=" btn-modal btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  MAIS INFORMAÇÕES
+</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="fa-solid fa-truck"></i>
+            <h1 class="modal-title fs-5" style="text-align: center;" id="exampleModalLabel">João Fretes</h1>
+            <button type="button"  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            
+            <h6>NOME: João Silva</h6>
+            <h6>TIPO DE ENTREGA: Fretes e Mudanças, atendemos em um raio de 80km</h6>
+            <h6>SOBRE: Caminhão da marca FOTON modelo AUMARK</h6>
+            <h5>ENTRE EM CONTATO </h5>
+            <div class="modal-contacts">  
+              <a href="https://api.whatsapp.com/send?phone=5534996750510" class="contact-whatsapp fa-brands fa-whatsapp"></a>
+              <a href="https://www.google.com/search?q=frete&rlz=1C1ONGR_pt-PTBR1003BR1003&oq=frete&aqs=chrome..69i57j0i131i433i457i512j0i402l2j0i131i433i512j69i60l3.3719j1j7&sourceid=chrome&ie=UTF-8" class="contact-site fa-solid fa-globe"></a>
+              <a href="https://instagram.com/bruno.duarte.sl/" class="contact-instagram fa-brands fa-instagram"></a>
+         
+            </div>
+         
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="col">
+    <div class="card">
+      <img src="camiao maior.jfif" class="card-img-top" alt="Fretes e Mudanças São José">
+      <div class="card-body">
+        <h5 class="card-title">Fretes e Mudanças São José</h5>
+        <p class="card-text">Atendendo Presidente Olegário e região</p>
+        <button type="button" class="btn-modal  btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  MAIS INFORMAÇÕES
+</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 
+  <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <i class="fa-solid fa-truck"></i>
+          <h1 class="modal-title fs-5" style="text-align: center;" id="exampleModalLabel">Fretes e Mudanças São José</h1>
+          <button type="button"  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <h6>NOME: São José Empreendimentos</h6>
+          <h6>TIPO DE ENTREGA: Fretes e Mudanças de grande e pequeno porte, atendemos em um raio de até 100km</h6>
+          <h6>SOBRE: Caminhão Mercedes-Benz do modelo ACCELO 1016</h6>
+          <h5>ENTRE EM CONTATO </h5>
+          <div class="modal-contacts">  
+            <a href="https://api.whatsapp.com/send?phone=5534996750510" class="contact-whatsapp fa-brands fa-whatsapp"></a>
+            <a href="https://www.google.com/search?q=frete&rlz=1C1ONGR_pt-PTBR1003BR1003&oq=frete&aqs=chrome..69i57j0i131i433i457i512j0i402l2j0i131i433i512j69i60l3.3719j1j7&sourceid=chrome&ie=UTF-8" class="contact-site fa-solid fa-globe"></a>
+            <a href="https://instagram.com/bruno.duarte.sl/" class="contact-instagram fa-brands fa-instagram"></a>
+       
+          </div>
+       
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="caxinha de fosc.jfif" class="card-img-top" alt="Souza Corridas">
+      <div class="card-body">
+        <h5 class="card-title">Souza Corridas</h5>
+        <p class="card-text">Atendendo Patos de Minas</p>
+        <button type="button" class="btn-modal btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  MAIS INFORMAÇÕES
+</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+
+
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 
+  <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <i class="fa-solid fa-truck"></i>
+          <h1 class="modal-title fs-5" style="text-align: center;" id="exampleModalLabel">Fretes e Mudanças São José</h1>
+          <button type="button"  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <h6>NOME: São José Empreendimentos</h6>
+          <h6>TIPO DE ENTREGA: Fretes e Mudanças de grande e pequeno porte, atendemos em um raio de até 100km</h6>
+          <h6>SOBRE: Caminhão Mercedes-Benz do modelo ACCELO 1016</h6>
+          <h5>ENTRE EM CONTATO </h5>
+          <div class="modal-contacts">  
+            <a href="https://api.whatsapp.com/send?phone=5534996750510" class="contact-whatsapp fa-brands fa-whatsapp"></a>
+            <a href="https://www.google.com/search?q=frete&rlz=1C1ONGR_pt-PTBR1003BR1003&oq=frete&aqs=chrome..69i57j0i131i433i457i512j0i402l2j0i131i433i512j69i60l3.3719j1j7&sourceid=chrome&ie=UTF-8" class="contact-site fa-solid fa-globe"></a>
+            <a href="https://instagram.com/bruno.duarte.sl/" class="contact-instagram fa-brands fa-instagram"></a>
+       
+          </div>
+       
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--FOOTER -->
+<br><br><br><br><br>
+<footer>
+  <div id="contact-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="main-title text-center"> ENTRE EM CONTATO CONOSCO</h3>
+        </div>
+        <div class="col-md-4 contact-box">
+          <i class="fas fa-phone"></i>
+          <p><span class="contact-title">Ligue para:</span>(34)996750510</p>
+          <p><span class="contact-title">Horários:</span>8:00 - 19:00</p>
+          <p></p>
+        </div>
+        <div class="col-md-4 contact-box">
+          <i class="fas fa-envelope"> </i>
+           <p><span class="contact-title">Envie um e-mail:</span>fretepatos@gmail.com</p>
+        </div>
+        <div class="col-md-4 contact-box">
+          <i class="fas fa-map-marker-alt "></i>  
+          <p><span class="contact-title">Nosso endereço:</span>rua frete patos 999</p>  
+        </div>
+        <div class="col-md-6" id="msg-box">
+          <p>Ou nos deixe uma mensagem:</p>
+        </div>
+        <div class="col-md-6" id="contact-form">
+          <form action="">
+            <input type="email" class="form-control" placeholder="E-mail" name="email">
+            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+            <textarea class="form-control" rows="3" placeholder="Sua Mensagem..." name="message"></textarea>
+            <input type="submit" class="main-btn" value="Enviar">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="copy-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Desenvovido por <a href="Home.html">Frete Patos</a>&copy; 2022</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="js/scripthari.js"></script>
+</body>
+</html>
